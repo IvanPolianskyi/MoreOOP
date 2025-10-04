@@ -3,6 +3,8 @@ public class Elf extends Character {
         super(10, 10);
     }
 
+
+    
     @Override
     public void kick(Character c) {
         if (c.getPower() < this.power) {
